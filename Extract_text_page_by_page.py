@@ -26,7 +26,7 @@ def extract_text_by_page(pdf_path):
 
 
 def extract_text(pdf_path):
-    for page in extract_text_by_page(pdf_path):
+    for page in extract_text_by_page(pdf_path):s
         print(page)
         print()
 
