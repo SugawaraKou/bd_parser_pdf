@@ -1,7 +1,5 @@
 import csv
 
-file_book = open("pdf/test.txt", "r")
-
 Master_Guide = open("pdf/Master_Guide.txt", "r")
 Player_book = open("pdf/Player_book.txt", "r")
 Rule_book = open("pdf/Rule_book.txt", "r")
@@ -41,7 +39,8 @@ with open("parsed_data/tool.csv", newline="") as f:
 with open("parsed_data/weapon.csv", newline="") as f:
     reader = csv.reader(f)
     weapon = list(reader)
-# for i in file_book:
-#     for j in data:
-#         if j[1] in i:
-#             print(i)
+
+for i in Player_book:
+     for j in armor:
+         if j[1] in i:
+             print(i)
